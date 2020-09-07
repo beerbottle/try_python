@@ -1,0 +1,53 @@
+                                                          The SAS System                    09:55 Wednesday, December 21, 2015   1
+
+                                                        The FREQ Procedure
+
+                                                         Table of r by c
+
+                                               r         c
+
+                                               Frequency|
+                                               Expected |
+                                               Percent  |
+                                               Row Pct  |
+                                               Col Pct  |       1|       2|  Total
+                                               ---------+--------+--------+
+                                                      1 |     77 |    134 |    211
+                                                        | 76.107 | 134.89 |
+                                                        |  19.15 |  33.33 |  52.49
+                                                        |  36.49 |  63.51 |
+                                                        |  53.10 |  52.14 |
+                                               ---------+--------+--------+
+                                                      2 |     68 |    123 |    191
+                                                        | 68.893 | 122.11 |
+                                                        |  16.92 |  30.60 |  47.51
+                                                        |  35.60 |  64.40 |
+                                                        |  46.90 |  47.86 |
+                                               ---------+--------+--------+
+                                               Total         145      257      402
+                                                           36.07    63.93   100.00
+
+
+                                                  Statistics for Table of r by c
+
+                                      Statistic                     DF       Value      Prob
+                                      ------------------------------------------------------
+                                      Chi-Square                     1      0.0345    0.8527
+                                      Likelihood Ratio Chi-Square    1      0.0345    0.8526
+                                      Continuity Adj. Chi-Square     1      0.0067    0.9348
+                                      Mantel-Haenszel Chi-Square     1      0.0344    0.8528
+                                      Phi Coefficient                       0.0093
+                                      Contingency Coefficient               0.0093
+                                      Cramer's V                            0.0093
+
+
+                                                       Fisher's Exact Test
+                                                ----------------------------------
+                                                Cell (1,1) Frequency (F)        77
+                                                Left-sided Pr <= F          0.6138
+                                                Right-sided Pr >= F         0.4676
+
+                                                Table Probability (P)       0.0814
+                                                Two-sided Pr <= P           0.9172
+
+                                                        Sample Size = 402
